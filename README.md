@@ -1,4 +1,4 @@
-# cucumber workshop 28th March 2019
+# Cucumber Workshop 28th March 2019
 
 ## Topics Covered
 
