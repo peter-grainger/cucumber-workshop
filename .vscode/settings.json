@@ -1,0 +1,26 @@
+{
+  "cucumberautocomplete.steps": [
+    "features/step_definitions/*.rb",
+  ],
+  "cucumberautocomplete.syncfeatures": "src/spec/features/*feature",
+  "cucumberautocomplete.strictGherkinCompletion": true,
+  "cucumberautocomplete.smartSnippets": true,
+  "cucumberautocomplete.stepsInvariants": true,
+  "cucumberautocomplete.pages": {
+    "users": "features/page_objects/users.storage.js",
+    "pathes": "features/page_objects/pathes.storage.js",
+    "main": "features/support/page_objects/main.page.js"
+  },
+  "cucumberautocomplete.skipDocStringsFormat": true,
+  "cucumberautocomplete.formatConfOverride": {
+    "And": 3,
+    "But": "relative",
+  },
+  "cucumberautocomplete.onTypeFormat": true,
+  "editor.quickSuggestions": {
+    "comments": false,
+    "strings": true,
+    "other": true
+  },
+  "cucumberautocomplete.gherkinDefinitionPart": "(Given|When|Then)\\("
+}
