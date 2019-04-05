@@ -1,3 +1,10 @@
+
+ENV['log'] = 'debug'
+
 before do
-  UserHelper.setup
+  DatabaseHelper.start
+end
+
+after do
+  DatabaseHelper.clean_up
 end
